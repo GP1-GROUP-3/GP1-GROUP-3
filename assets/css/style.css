@@ -386,7 +386,7 @@ h6,
   border-radius: 50px;
   transition: 0.5s;
   margin-top: 30px;
-  color: #fff;
+  color: #000000;
   background: #eb5d1e;
 }
 
@@ -565,14 +565,7 @@ section {
 .about h3 {
   font-weight: 700;
   font-size: 34px;
-  color: #4e4039;
-}
-
-.about h4 {
-  font-size: 20px;
-  font-weight: 700;
-  margin-top: 5px;
-  color: #7a6960;
+  color: #ffffff;
 }
 
 .about i {
@@ -583,9 +576,23 @@ section {
 
 .about p {
   font-size: 15px;
-  color: #5a6570;
+  color: #f0f0f0;
 }
-
+.about .img-container{
+  position: relative;
+  font-family: Arial;
+}
+.about .text-block{
+  background-color: rgb(5, 11, 88);
+  opacity: 0.85;
+  color: rgb(255, 255, 255);
+  position:absolute;
+  text-align:center;
+  top: 0px;
+  bottom: 0px;
+  max-width: 100%;
+  height: auto;
+}
 @media (max-width: 991px) {
   .about .about-img img {
     max-width: 70%;
@@ -602,7 +609,7 @@ section {
 # Features
 --------------------------------------------------------------*/
 .feature-container{
-  background-color: #d8cccc;
+  background-color: #eee6e6;
   border-radius: 100px;
   width: 750px;
   height: 100px;
@@ -626,27 +633,47 @@ section {
   border-color: #ef7f4d;
 }
 
-.feature .icon i {
+.feature .icon img {
   font-size: 48px;
   line-height: 1;
   margin-bottom: 15px;
   color: #ef7f4d;
+  float: left;
+
+}
+/* Section-title */
+.section-title {
+  text-align: center;
+  padding-bottom: 30px;
 }
 
-.feature .title {
-  font-weight: 700;
-  margin-bottom: 15px;
-  font-size: 18px;
+.section-title h2 {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative;
+  color: #222222;
 }
 
-.feature .title a {
-  color: #111;
+.section-title h2::before,
+.section-title h2::after {
+  content: "";
+  width: 50px;
+  height: 2px;
+  background: #eb5d1e;
+  display: inline-block;
 }
 
-.feature .description {
-  font-size: 15px;
-  line-height: 28px;
-  margin-bottom: 0;
+.section-title h2::before {
+  margin: 0 15px 10px 0;
+}
+
+.section-title h2::after {
+  margin: 0 0 10px 15px;
+}
+
+.section-title p {
+  margin: 15px 0 0 0;
 }
 
 /*--------------------------------------------------------------
@@ -1038,11 +1065,21 @@ section {
 /*--------------------------------------------------------------
 # Contact Us
 --------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Contact
+--------------------------------------------------------------*/
+#contact {
+  width: 100%;
+  height: auto;
+  background: #f5f9fe;
+  border-bottom: 2px solid #fcebe3;
+  margin: 72px 0 -72px 0;
+}
 .contact .info {
   border-top: 3px solid #eb5d1e;
   border-bottom: 3px solid #eb5d1e;
   padding: 30px;
-  background: #fff;
+  background: #1a1919;
   width: 100%;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
@@ -1053,7 +1090,7 @@ section {
   float: left;
   width: 44px;
   height: 44px;
-  background: #fdf1ec;
+  background: #2e2c2c;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1213,7 +1250,6 @@ section {
     transform: rotate(360deg);
   }
 }
-
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
