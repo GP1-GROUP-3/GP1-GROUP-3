@@ -1,13 +1,3 @@
-/**
-* Template Name: Ninestars - v4.10.0
-* Template URL: https://bootstrapmade.com/ninestars-free-bootstrap-3-theme-for-creative/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
   font-family: 'Poppins';
   color: #212529;
@@ -64,15 +54,6 @@ h6,
 .back-to-top.active {
   visibility: visible;
   opacity: 1;
-}
-
-/*--------------------------------------------------------------
-# Disable aos animation delay on mobile devices
---------------------------------------------------------------*/
-@media screen and (max-width: 768px) {
-  [data-aos-delay] {
-    transition-delay: 0 !important;
-  }
 }
 
 /*--------------------------------------------------------------
@@ -693,6 +674,7 @@ section {
   border-width: 70px 70px 110px 110px;
   /* margin: -55px 0 0 -55px; */
 }
+
 .team .img-profmid {
   outline: 10px solid #19345E;
   outline-offset: -100px;
@@ -753,5 +735,61 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Footer
+# about our team
 --------------------------------------------------------------*/
+.about-team {
+  width: 100%;
+  background: #f5f9fe;
+  border-bottom: 2px solid #fcebe3;
+  margin: 72px 0 -72px 0;
+}
+
+.ppl-one-job {
+  text-align: left;
+  font: normal normal bold 30px/12px Muli;
+  letter-spacing: 0px;
+  color: #19345E;
+  opacity: 1;
+  margin-left: 50px;
+}
+
+.about-team .img-prof {
+  outline: 10px solid orange;
+  outline-offset: -100px;
+  border: 50px solid transparent;
+  border-width: 70px 70px 110px 110px;
+}
+.about-team .img-profmid {
+  outline: 10px solid #19345E;
+  outline-offset: -100px;
+  border: 50px solid transparent;
+  border-width: 70px 70px 110px 110px;
+}
+.about-team .education{
+  margin-left: 100px;
+  color: #19345E;
+  line-height: 30px;
+  font-family: 'Poppins';
+}
+.about-team .experience{
+  margin-left: 100px;
+  color: #19345E;
+  line-height: 30px;
+  font-family: 'Poppins';
+}
+
+.about-team .education h3 {
+  text-align: left;
+  font: normal normal bold 25px/12px Muli;
+  letter-spacing: 0px;
+  color: #19345E;
+  opacity: 1;
+}
+
+.about-team .experience h3 {
+  text-align: left;
+  font: normal normal bold 25px/12px Muli;
+  letter-spacing: 0px;
+  color: #19345E;
+  opacity: 1;
+}
