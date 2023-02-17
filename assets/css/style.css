@@ -142,8 +142,9 @@ h6,
 
 .navbar .getstarted,
 .navbar .getstarted:focus {
-  background: #eb5d1e;
-  color: #fff;
+  border: 1px solid #eb5d1e;
+  background: white;
+  color: #eb5d1e;
   padding: 10px 25px;
   margin-left: 30px;
   border-radius: 50px;
