@@ -1,5 +1,5 @@
 body {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   color: #212529;
 }
 
@@ -136,7 +136,7 @@ h6,
 .navbar a:hover,
 .navbar .active,
 .navbar .active:focus,
-.navbar li:hover>a {
+.navbar li:hover > a {
   color: #eb5d1e;
 }
 
@@ -186,11 +186,11 @@ h6,
 
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
-.navbar .dropdown ul li:hover>a {
+.navbar .dropdown ul li:hover > a {
   color: #eb5d1e;
 }
 
-.navbar .dropdown:hover>ul {
+.navbar .dropdown:hover > ul {
   opacity: 1;
   top: 100%;
   visibility: visible;
@@ -202,7 +202,7 @@ h6,
   visibility: hidden;
 }
 
-.navbar .dropdown .dropdown:hover>ul {
+.navbar .dropdown .dropdown:hover > ul {
   opacity: 1;
   top: 0;
   left: 100%;
@@ -214,7 +214,7 @@ h6,
     left: -90%;
   }
 
-  .navbar .dropdown .dropdown:hover>ul {
+  .navbar .dropdown .dropdown:hover > ul {
     left: -100%;
   }
 }
@@ -284,7 +284,7 @@ h6,
 
 .navbar-mobile a:hover,
 .navbar-mobile .active,
-.navbar-mobile li:hover>a {
+.navbar-mobile li:hover > a {
   color: #eb5d1e;
 }
 
@@ -319,11 +319,11 @@ h6,
 
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
-.navbar-mobile .dropdown ul li:hover>a {
+.navbar-mobile .dropdown ul li:hover > a {
   color: #eb5d1e;
 }
 
-.navbar-mobile .dropdown>.dropdown-active {
+.navbar-mobile .dropdown > .dropdown-active {
   display: block;
 }
 
@@ -462,7 +462,7 @@ section {
 .section-title {
   text-align: center;
   padding-bottom: 30px;
-  color: #19345E;
+  color: #19345e;
 }
 
 .section-title h2 {
@@ -471,7 +471,7 @@ section {
   padding-bottom: 0;
   line-height: 1px;
   margin-bottom: 15px;
-  color: #19345E;
+  color: #19345e;
 }
 
 .section-title p {
@@ -558,11 +558,11 @@ section {
 # Features
 --------------------------------------------------------------*/
 .feature-container {
-  background: #FFFFFF 0% 0% no-repeat padding-box;
+  background: #ffffff 0% 0% no-repeat padding-box;
   box-shadow: 0px 3px 6px #00000029;
   border-radius: 100px;
   opacity: 1;
-  border: 1px solid #AAAAAA;
+  border: 1px solid #aaaaaa;
   width: 750px;
   height: 100px;
   border: 10px;
@@ -582,7 +582,7 @@ section {
 }
 
 .feature h4 {
-  color: #19345E;
+  color: #19345e;
 }
 
 .feature .icon-box:hover {
@@ -596,7 +596,6 @@ section {
   margin-bottom: 15px;
   color: #ef7f4d;
   float: left;
-
 }
 
 @media (max-width: 991px) {
@@ -676,7 +675,7 @@ section {
 }
 
 .team .img-profmid {
-  outline: 10px solid #19345E;
+  outline: 10px solid #19345e;
   outline-offset: -100px;
   border: 50px solid transparent;
   border-width: 70px 70px 110px 110px;
@@ -687,7 +686,7 @@ section {
   text-align: center;
   font: normal normal bold 20px/24px Roboto;
   letter-spacing: 0px;
-  color: #F47522;
+  color: #f47522;
   opacity: 1;
 }
 
@@ -695,7 +694,7 @@ section {
   text-align: center;
   font: normal normal normal 15px/24px Poppins;
   letter-spacing: 0px;
-  color: #19345E;
+  color: #19345e;
   opacity: 1;
 }
 
@@ -706,7 +705,7 @@ section {
   text-align: left;
   font: normal normal bold 20px/24px Roboto;
   letter-spacing: 0px;
-  color: #19345E;
+  color: #19345e;
   opacity: 1;
 }
 
@@ -722,7 +721,7 @@ section {
   text-align: left;
   font: normal normal normal 14px/24px Poppins;
   letter-spacing: 0px;
-  color: #19345E;
+  color: #19345e;
   opacity: 1;
 }
 
@@ -748,7 +747,7 @@ section {
   text-align: left;
   font: normal normal bold 30px/12px Muli;
   letter-spacing: 0px;
-  color: #19345E;
+  color: #19345e;
   opacity: 1;
   margin-left: 50px;
 }
@@ -760,29 +759,29 @@ section {
   border-width: 70px 70px 110px 110px;
 }
 .about-team .img-profmid {
-  outline: 10px solid #19345E;
+  outline: 10px solid #19345e;
   outline-offset: -100px;
   border: 50px solid transparent;
   border-width: 70px 70px 110px 110px;
 }
-.about-team .education{
+.about-team .education {
   margin-left: 100px;
-  color: #19345E;
+  color: #19345e;
   line-height: 30px;
-  font-family: 'Poppins';
+  font-family: "Poppins";
 }
-.about-team .experience{
+.about-team .experience {
   margin-left: 100px;
-  color: #19345E;
+  color: #19345e;
   line-height: 30px;
-  font-family: 'Poppins';
+  font-family: "Poppins";
 }
 
 .about-team .education h3 {
   text-align: left;
   font: normal normal bold 25px/12px Muli;
   letter-spacing: 0px;
-  color: #19345E;
+  color: #19345e;
   opacity: 1;
 }
 
@@ -790,6 +789,12 @@ section {
   text-align: left;
   font: normal normal bold 25px/12px Muli;
   letter-spacing: 0px;
-  color: #19345E;
+  color: #19345e;
   opacity: 1;
+}
+
+#footer .logo-footer {
+  padding: 0;
+  margin: 0;
+  max-height: 40px;
 }
